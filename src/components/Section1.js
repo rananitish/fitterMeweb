@@ -13,8 +13,8 @@ function Section1() {
         <section className='section1-container'>
            <img src={food }/>
            
-           <h1 >Heading</h1>
-           <p >thodA BHUT LIKHO</p>
+           <h1 >WELCOME !!</h1>
+           <p >To Our Fitness Arena</p>
            
            <div className="section-btns">
            

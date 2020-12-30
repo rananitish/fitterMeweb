@@ -8,17 +8,17 @@ function Navbar() {
     const [button,setButton]=useState(true);
     const handleClick=()=>setClick(!click);
     const closeMobileMenu=()=> setClick(false);
-    const showButton=()=>{
-        if(window.innerWidth<=960){
-            setButton(false)
-        }else{
-            setButton(true)
-        }
-    };
-    useEffect(()=>{
-        showButton()  
-    },[])
-    window.addEventListener('resize',showButton)
+    //const showButton=()=>{
+      ////  if(window.innerWidth<=960){
+           // setButton(false)
+     //   }else{
+            //setButton(true)
+       // }
+   // };
+   // useEffect(()=>{
+        //showButton()  
+  //  },[])
+   // window.addEventListener('resize',showButton)
     return (
         <div>
             <nav className="navbar">
@@ -36,16 +36,13 @@ function Navbar() {
                </Link></li>
                <li className="nav-item">
                <Link to="/services" className='nav-links' onClick={closeMobileMenu}>
-                 Services
+                 Features
                </Link></li>
                <li className="nav-item">
                <Link to="/team" className='nav-links' onClick={closeMobileMenu}>
                  Team
                </Link></li>
-               <li className="nav-item">
-               <Link to="/sign-up" className='nav-links nav-links-mobile' onClick={closeMobileMenu}>
-                 Sign up
-               </Link></li>
+               
               </ul>
               
             </div></nav>

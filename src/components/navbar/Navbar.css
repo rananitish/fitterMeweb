@@ -1,14 +1,18 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    /*background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);*/
+    background-color: transparent;
     height: 90px;
     display: flex;
     
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    position: fixed;
+    left: 0;
+    right: 0;
     top: 0;
     z-index: 999;
+   
   }
   
   .navbar-container {
@@ -17,9 +21,11 @@
     align-items: center;
     height: 80px;
     max-width: 1500px;
+    
   }
   
   .navbar-logo {
+    width: 70%;
     color: #fff;
     justify-self: start;
     margin-left: 20px;
@@ -44,13 +50,13 @@
   
   .nav-menu {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(3, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: 60vw;
-    justify-content: end;
-    margin-right: 2rem;
+    justify-content: right;
+    margin-right: 0.4rem;
   }
   
   .nav-item {
@@ -75,15 +81,7 @@
     color: #fff;
   }
   
-  .nav-links-mobile {
-    margin-top: 25px;
-    padding:15px;
-    height: 6px;
-    box-sizing: border-box;
-    border: 5px solid white;
-    border-radius: 40px;
-    transition: all 0.3s ease-out;
-  }
+  
   
   .menu-icon {
     display: none;
@@ -107,7 +105,7 @@
     }
   
     .nav-menu.active {
-      background: #242222;
+      background: #242322;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -124,7 +122,7 @@
     .nav-links:hover {
       background-color: #fff;
       color: #242424;
-      border-radius: 0;
+      border-radius: 10px;
     }
   
     .navbar-logo {
@@ -149,25 +147,7 @@
       font-size: 2rem;
     }
   
-    .nav-links-mobile {
-      display: block;
-      text-align: center;
-      margin: 2rem auto;
-      border-radius: 4px;
-      width: 80%;
-      text-decoration: none;
-      font-size: 1.5rem;
-      height: 60px;
-      background-color: transparent;
-      color: #fff;
-      padding: 14px 20px;
-      border: 1px solid #fff;
-      transition: all 0.3s ease-out;
-    }
+   
   
-    .nav-links-mobile:hover {
-      background: #fff;
-      color: #242424;
-      transition: 250ms;
-    }
+   
   }

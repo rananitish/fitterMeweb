@@ -1,10 +1,16 @@
 .container{
     background-color: #edf2ef;
+    scroll-behavior: smooth;
+   /* height: 100vh;*/
+    position: relative;
+    padding: 20px 0;
+    
 }
 
 
 .heading
 {
+    color: #5cdb95;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
@@ -12,9 +18,48 @@
     filter: blur(5);
     font-size: 50px;
 }
-.nav--bar{
+.features{
+    margin:20px;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)),url(diet.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 80vh;
+    background-color: seashell;
     display: flex;
-    flex-direction: row;
-    justify-content:space-evenly ;
-    text-emphasis: none;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+}
+.container1{
+
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px;
+  padding: 0.6rem;
+  padding-left: 1rem;
+  
+  transform: skewX(-12deg); 
+  display: flex;
+  flex-direction: row;
+
+}
+.text{
+    width: 50%;
+}
+  
+
+.heading-primary{
+    text-align: center;
+    color: slategrey;
+    text-transform: uppercase;
+
+}
+.info{
+    text-align: center;
+    
+    font-family: sans-serif;
+    padding-left: 2px;
 }
