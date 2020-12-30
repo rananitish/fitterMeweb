@@ -1,7 +1,20 @@
-.heading{
+.container{
+    background-color: #edf2ef;
+}
+
+
+.heading
+{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
     padding-top: 3cm;
-    background color: 
+    filter: blur(5);
+    font-size: 50px;
+}
+.nav--bar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    text-emphasis: none;
 }
