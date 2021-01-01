@@ -11,7 +11,7 @@ function Section1() {
     return (
         <div>
         <section className='section1-container'>
-           <img src={food }/>
+           <img src={food } className='img'/>
            
            <h1 >WELCOME !!</h1>
            <p >To Our Fitness Arena</p>

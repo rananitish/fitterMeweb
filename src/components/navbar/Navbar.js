@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import {Button} from '../Button'
 import './Navbar.css'
-
+import Home from '../pages/Home'
 function Navbar() {
     const [click,setClick]=useState(false);
     const [button,setButton]=useState(true);
@@ -31,17 +31,17 @@ function Navbar() {
               </div>
               <ul className={click ? 'nav-menu active':'nav-menu'}>
               <li className="nav-item">
-               <Link to="/" className='nav-links' onClick={closeMobileMenu}>
+               <a href="#Home" className='nav-links' onClick={closeMobileMenu}>
                  Home
-               </Link></li>
+               </a></li>
                <li className="nav-item">
-               <Link to="/services" className='nav-links' onClick={closeMobileMenu}>
+               <a href="#Features" className='nav-links' onClick={closeMobileMenu}>
                  Features
-               </Link></li>
+               </a></li>
                <li className="nav-item">
-               <Link to="/team" className='nav-links' onClick={closeMobileMenu}>
+               <a href="#team" className='nav-links' onClick={closeMobileMenu}>
                  Team
-               </Link></li>
+               </a></li>
                
               </ul>
               

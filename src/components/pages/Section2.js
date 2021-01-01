@@ -4,7 +4,7 @@ import "./Section2.css"
 function Section2() {
 
     return (
-        <div className='container'>
+        <div id="Features" className='container'>
         
         <h2 className="heading">
         Features</h2>
