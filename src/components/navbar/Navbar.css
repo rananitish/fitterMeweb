@@ -15,6 +15,19 @@
     
    
   }
+  .logo{
+   
+   height: 1cm;
+   width: 3cm;
+  }
+  .logo.off{
+    display: none;
+
+  }
+  .navbar.active{
+    background-color: black;
+    height: 90px;
+  }
   
   .navbar-container {
     display: flex;
@@ -29,7 +42,7 @@
     width: 70%;
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 15px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -51,7 +64,7 @@
   
   .nav-menu {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
@@ -130,8 +143,17 @@
       position: absolute;
       top: 0;
       left: 0;
-      transform: translate(25%, 50%);
+      transform: translate(13%, 35%);
     }
+    .logo{
+      
+      height: 0.6cm;
+      width: 2cm;
+      transform: translate(95%,20%);
+      filter: brightness(1.18);
+
+    }
+   
   
     .menu-icon {
       display: block;

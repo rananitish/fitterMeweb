@@ -44,7 +44,7 @@
   padding: 0.6rem;
   padding-left: 1rem;
   
-  transform: skewX(-12deg); 
+  
   display: flex;
   flex-direction: row;
 
@@ -71,10 +71,14 @@
 }
 .far{
     color: #777777;
-
+}
+.fa-fire{
+    color: #777777;
 }
 .phone{
     width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 30px;
 }

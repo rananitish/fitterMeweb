@@ -21,35 +21,35 @@ function Section3() {
             <div className="image">
             <figure className="figure__shape">
             <img src="" alt="" className="team__img"/>
-            <figcaption className='team__name'>Nitish Rana</figcaption>
+            <figcaption className='team__name'>Name 1</figcaption>
             </figure>
             </div>
             <div className="about">
             
-            <p className='text'>deededcjkdjkcjknj</p>
+            <p className='text'>Details</p>
             </div>
             </div>
             <div className="team-member"> <div className="image">
             <figure className="figure__shape">
             <img src="" alt="" className="team__img"/>
-            <figcaption className='team__name'>Govinda</figcaption>
+            <figcaption className='team__name'>Name 2</figcaption>
             </figure>
             </div>
             <div className="about">
             
-            <p className='text'>deeded</p>
+            <p className='text'>Details</p>
             </div>
 
             </div>
             <div className="team-member"> <div className="image">
             <figure className="figure__shape">
             <img src="" alt="" className="team__img"/>
-            <figcaption className='team__name'>Aman Sharma</figcaption>
+            <figcaption className='team__name'>Name 3</figcaption>
             </figure>
             </div>
             <div className="about">
             
-            <p className='text'>deeded</p>
+            <p className='text'>Details</p>
             </div>
 
             </div>
