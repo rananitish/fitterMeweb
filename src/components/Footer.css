@@ -10,15 +10,18 @@
   }
   
   
-  .footer-links {
+  .footer-1 {
     width: 100%;
     max-width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
   }
   
   .footer-link-wrapper {
     display: flex;
+    
+    
   }
   
   .footer-link-items {
@@ -28,7 +31,7 @@
     align-items: flex-start;
     margin: 16px;
     text-align: left;
-    width: 160px;
+    min-width: 160px;
     box-sizing: border-box;
   }
   
@@ -57,7 +60,7 @@
   
   .social-media-wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 90%;
     max-width: 1000px;
@@ -75,12 +78,17 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 30px;
   }
   .fa-heartbeat {
     margin-left: 0.5rem;
     font-size: 1.8rem;
     color: red;
+  }
+  .line{
+    border-left: 2px solid blanchedalmond;
+    height: 250px;
+    margin-left: 160px;
   }
   
   
