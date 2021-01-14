@@ -69,7 +69,7 @@
     width: 100%;
     object-fit: cover;
     
-    transform: translateX(2.0rem) scale(1.3);
+    transform: translateX(1.0rem) scale(1.3);
     backface-visibility: hidden;
     transition: all .5s;
 }
