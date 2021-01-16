@@ -98,3 +98,48 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+@media screen and (max-width:450px){
+    .team-container{
+        /* background-color: #ffa69e;*/
+        /*background-image: linear-gradient(315deg, #ffa69e 0.8, #5d4954 0.8),url(Laptop.jpg);*/
+       margin:5px;
+       padding: 10px;
+       
+       border-radius: 30px;
+       display: flex;
+       flex-direction: column;
+      
+       
+       
+     }
+     .team-member{
+        
+        margin: 18px auto;
+        height: 300px;
+        width: 210px ;
+        border-radius: 10px;
+        
+        display: flex;
+        flex-direction: column;
+        transition: transform .3s; }
+        .image{
+            height: 40%;
+            
+            padding: .2cm;
+            margin-bottom: 0.1cm;
+        }
+        .figure__shape {
+            width: 6rem;
+            height: 6rem;
+            }
+             .about{
+                width:65%;
+                padding:2px;
+            
+            }
+            .text{
+                font-size: 12px;
+            }
+       
+
+}

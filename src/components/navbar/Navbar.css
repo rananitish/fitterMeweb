@@ -174,3 +174,74 @@
   
    
   }
+  @media screen and (max-width: 400px) {
+    .NavbarItems {
+      position: relative;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 90vh;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background: #242322;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-links {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+    }
+  
+   
+  
+    .navbar-logo {
+      
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(4%, 30%);
+      font-size:1.8rem;
+    }
+    .logo{
+      
+      height: 0.6cm;
+      width: 2cm;
+      transform: translate(75%,5%);
+      filter: brightness(1.18);
+
+    }
+   
+  
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  
+    .fa-times {
+      color: #fff;
+      font-size: 2rem;
+    }
+  
+   
+  
+   
+  }

@@ -69,3 +69,34 @@
     width: 100%;
   }
 }
+@media screen and (max-width:450px){
+  .section1-container > h1 {
+    font-size: 50px;
+    
+  }
+  .section1-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+  .section1-container{
+    padding-top: 90px;
+    
+   min-height: 70vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+   object-fit: contain;
+   
+  
+  }
+}
