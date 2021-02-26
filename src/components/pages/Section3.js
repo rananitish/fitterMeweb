@@ -12,11 +12,7 @@ function Section3() {
           <h3 className="heading">Team
           </h3>
           <div className="team-container">
-           
-            
-            
-            
-            
+
             <div className="team-member"> 
             <div className="image">
             <figure className="figure__shape">

@@ -8,7 +8,7 @@ import Footer from '../src/components/Footer';
 import Section2 from './components/pages/Section2'
 import Section1 from './components/Section1';
 
-
+//hello
 function App() {
   return (
    <>
