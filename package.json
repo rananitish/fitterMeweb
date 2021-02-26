@@ -1,5 +1,6 @@
 {
   "name": "fitterme",
+  "homepage": "https://rananitish.github.io/fitterMeweb",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
