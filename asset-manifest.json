@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fitterMeweb/static/css/main.6eb67f40.chunk.css",
+    "main.js": "/fitterMeweb/static/js/main.b31c9315.chunk.js",
+    "main.js.map": "/fitterMeweb/static/js/main.b31c9315.chunk.js.map",
+    "runtime-main.js": "/fitterMeweb/static/js/runtime-main.f09de055.js",
+    "runtime-main.js.map": "/fitterMeweb/static/js/runtime-main.f09de055.js.map",
+    "static/js/2.043767ff.chunk.js": "/fitterMeweb/static/js/2.043767ff.chunk.js",
+    "static/js/2.043767ff.chunk.js.map": "/fitterMeweb/static/js/2.043767ff.chunk.js.map",
+    "index.html": "/fitterMeweb/index.html",
+    "static/css/main.6eb67f40.chunk.css.map": "/fitterMeweb/static/css/main.6eb67f40.chunk.css.map",
+    "static/js/2.043767ff.chunk.js.LICENSE.txt": "/fitterMeweb/static/js/2.043767ff.chunk.js.LICENSE.txt",
+    "static/media/Section3.css": "/fitterMeweb/static/media/Laptop.9575c5a2.jpg",
+    "static/media/Section2.css": "/fitterMeweb/static/media/diet.b14a8c21.jpg",
+    "static/media/food.686e1d59.jpg": "/fitterMeweb/static/media/food.686e1d59.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f09de055.js",
+    "static/js/2.043767ff.chunk.js",
+    "static/css/main.6eb67f40.chunk.css",
+    "static/js/main.b31c9315.chunk.js"
+  ]
+}
