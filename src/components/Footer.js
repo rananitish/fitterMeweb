@@ -11,7 +11,7 @@ function Footer() {
       <div className='footer-link-wrapper'>
         <div class='footer-link-items'>
           <h2>About Us</h2>
-          <p>cbhhcadjknnkdcmak</p>
+          <p>Website made by REACT JS</p>
         </div>
         <div class='footer-link-items'>
           <h2>Contact Us</h2>
@@ -21,7 +21,7 @@ function Footer() {
           
           <h3>Email:</h3>
 
-          <p>cd@njdscj.com</p>
+          <p>rananitish46@gmail.com</p>
           <h3>Addresss:</h3>
           <p>cdscsdc</p>
         </div>
