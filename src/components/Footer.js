@@ -16,12 +16,12 @@ function Footer() {
         <div class='footer-link-items'>
           <h2>Contact Us</h2>
           <h3>Contact:</h3>
-          <p>8750042239</p>
+          <p>XXXXXXXXx</p>
           
           
           <h3>Email:</h3>
 
-          <p>rananitish46@gmail.com</p>
+          <p>XYZ@gmail.com</p>
           <h3>Addresss:</h3>
           <p>cdscsdc</p>
         </div>
