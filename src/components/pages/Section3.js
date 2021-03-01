@@ -25,18 +25,7 @@ function Section3() {
             <p className='text'>Details</p>
             </div>
             </div>
-            <div className="team-member"> <div className="image">
-            <figure className="figure__shape">
-            <img src="" alt="" className="team__img"/>
-            <figcaption className='team__name'>Name 3</figcaption>
-            </figure>
-            </div>
-            <div className="about">
-            
-            <p className='text'>Details</p>
-            </div>
-
-            </div>
+          
             </div>
           </div>
         
